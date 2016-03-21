@@ -23,10 +23,6 @@ th {
     font-size:30px;
 }
 
-td {
-    width: 50%;
-}
-
 .bar {
     height: 20px;
     background-color:gray;
@@ -36,21 +32,19 @@ td {
     text-align: center;
     line-height: 20px;
     padding: 10px;
-    color: black;
+    float: left;
+    margin-left:0;
+    color: white;
     font-size: 12px;
     font-family: "Lato", sans-serif;
 }
 
 .bar.dem  {
     background-color: #3A63E8;    
-    float: left;
-    margin-left:0;
 }
 
 .bar.rep  {
     background-color: #E03838;    
-    float:right;
-    margin-right:0;
 }
 .left {
     float: left;
@@ -61,3 +55,17 @@ td {
     float: right;
 }
 
+button {
+    padding:5px;
+    border-radius: 10px;
+    color: white;
+    margin:5px;
+}
+
+#repb {
+    background-color: #E03838;    
+}
+
+#demb {
+    background-color: #3A63E8;    
+}
