@@ -46,6 +46,10 @@ th {
 .bar.rep  {
     background-color: #E03838;    
 }
+.bar.unspent {
+    background-color:#gray;
+}
+
 .left {
     float: left;
 }
