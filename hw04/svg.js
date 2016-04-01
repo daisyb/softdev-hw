@@ -1,4 +1,5 @@
 
+
 var pic = document.getElementById("vimg");
 var rect = pic.getBoundingClientRect();
 var width = rect.width;
